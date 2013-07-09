@@ -1,3 +1,5 @@
 class Book < ActiveRecord::Base
-  has_and_belongs_to_many :authors, :stores
+  attr_accessible :genre, :name, :price
+
+  has_many_and_belongs_to_many :authors, :stores
 end
