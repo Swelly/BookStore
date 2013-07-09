@@ -2,10 +2,10 @@
 
 one:
   name: MyString
-  price: 9.99
+  price: 1
   genre: MyString
 
 two:
   name: MyString
-  price: 9.99
+  price: 1
   genre: MyString
