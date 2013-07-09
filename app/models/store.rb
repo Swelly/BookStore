@@ -1,5 +1,5 @@
 class Store < ActiveRecord::Base
-  attr_accessible :description, :name
+  attr_accessible :name
 
-  has_and_belongs_to_many :books, :authors
+  has_and_belongs_to_many :books
 end
